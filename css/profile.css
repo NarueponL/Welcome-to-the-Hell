@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'PixelOperatorMono';
+    src: url(fonts/PixelOperatorMono.ttf);
+}
+
+@font-face {
+    font-family: 'PixelOperatorHB8';
+    src: url(fonts/PixelOperatorHB8.ttf);
+}
+
+body{
+    margin: 0%;
+    background-color: #908e8e;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://cdnb.artstation.com/p/assets/images/images/035/877/167/large/gregory-ligman-brickwall.jpg?1616129547%27');
+    background-position: center;
+    background-size: 100px;
+    background-repeat: repeat;
+    text-align: center;
+}
+
+li
+{
+    font-family: 'PixelOperatorHB8',monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFDD0;
+}
+header
+{
+    display: flex;
+    background-color: #000000;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.logo
+{
+    cursor: pointer;
+}
+
+.nav_links
+{
+    list-style: none;
+}
+.nav_links li
+{
+    display: inline-block;
+    padding: 10px 10px;
+}
+.menuButton
+{
+    background-color: #000000;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'PixelOperatorHB8',monospace;
+}
+.menuButton:hover
+{
+   background-color: hsl(0, 2%, 53%); 
+}
+
+#ProfileID{
+    margin-top: 100px;
+}
+
+hr{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+#buttonID{
+    text-align: center;
+    margin: 30px 50px;
+}
+
+#browsePic{
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    /* background-color: rgba(217, 217, 217, 1) ; */
+}
+#profile{
+    width: 100%;
+    height: 100%;
+}
+#userDescription{
+    text-align: center;
+    font-family: 'PixelOperatorHB8',monospace;
+    color: white;
+    margin: 30px 0px;
+}
+
+#showVideo{
+    margin: 50px 5%;
+    border: 2px solid rgba(217, 217, 217, 1);
+    border-radius: 5px;
+    background-color: rgba(217, 217, 217, 1) ;
+    text-align: left;
+    position: absolute;
+    width: 90%;
+    padding: 10px;
+}
+
+#showVideo > h3{
+    padding-left: 50px;
+    margin: 15px;
+}
+
+#logOutButton ,#changeNameButton{
+    background: #fff;
+    backface-visibility: hidden;
+    border-radius: .375rem;
+    border-style: solid;
+    border-width: .125rem;
+    box-sizing: border-box;
+    color: #212121;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'PixelOperatorMono',monospace;
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: -.01em;
+    line-height: 1.3;
+    margin: 0% 10px;
+    padding: .875rem 1.125rem;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transform: translateZ(0) scale(1);
+    transition: transform .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    
+}
+  
+#logOutButton:not(:disabled):hover ,#changeNameButton:not(:disabled):hover {
+    transform: scale(1.05);
+}
+  
+#logOutButton:not(:disabled):hover:active ,#changeNameButton:not(:disabled):hover:active{
+    transform: scale(1.05) translateY(.125rem);
+}
+
+#username > input{
+    font-family: 'PixelOperatorMono',monospace;
+}

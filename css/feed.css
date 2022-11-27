@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'PixelOperatorMono';
+    src: url(fonts/PixelOperatorMono.ttf);
+}
+
+@font-face {
+    font-family: 'PixelOperatorHB8';
+    src: url(fonts/PixelOperatorHB8.ttf);
+}
+
+body{
+    margin: 0%;
+    background-color: #908e8e;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://cdnb.artstation.com/p/assets/images/images/035/877/167/large/gregory-ligman-brickwall.jpg?1616129547%27');
+    background-position: center;
+    background-size: 100px;
+    background-repeat: repeat;
+    text-align: center;
+    font-family: "PixelOperatorMono" ,monospace;
+}
+
+li
+{
+    font-family: 'PixelOperatorHB8',monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFDD0;
+}
+header
+{
+    display: flex;
+    background-color: #000000;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.logo
+{
+    cursor: pointer;
+}
+
+.nav_links
+{
+    list-style: none;
+}
+.nav_links li
+{
+    display: inline-block;
+    padding: 10px 10px;
+}
+.menuButton
+{
+    background-color: #000000;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'PixelOperatorHB8',monospace;
+}
+.menuButton:hover
+{
+   background-color: hsl(0, 2%, 53%); 
+}
+
+.feed-container{
+    text-align: left;
+    margin: 5px 5%;
+    padding: 10px;
+}
+
+.postID{
+    background-color: rgba(177, 168, 168, 0.685);
+    display: inherit;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 15px ;
+}
+
+.headerPost{
+    margin: 0%;
+}
+
+#displayPic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 20px;
+    background-color: rgb(111, 202, 40) ;
+}
+
+h3{
+    text-align: left;
+    padding-left:  10px; ;
+}
+
+#postPic{
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid black; */
+}
+
+#postMsg{
+    font-family: "PixelOperatorMono" ,monospace;
+    margin-right: 10px;
+}
+
+.commentButton-container{
+    text-align: right;
+    margin: 0%;
+    font-family: "PixelOperatorMono" ,monospace;
+}
+
+.likeButton ,#commentButton ,#postButton ,#postButton2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    padding: 5px;
+    font-family: "PixelOperatorMono" ,monospace;
+}
+
+.comment-container{
+    margin-top: 10px;
+    font-family: "PixelOperatorMono" ,monospace;
+}
+
+#chatbox{
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 15px;
+    margin: 5px 0px;
+}
+
+textarea{
+    font-family: "PixelOperatorMono" ,monospace;
+}
